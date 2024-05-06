@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Vista</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Agrega estilos personalizados aquí si es necesario */
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Bella Vista</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-house-door-fill"></i> Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-flower1"></i> Arreglos Florales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-tree"></i> Plantas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-envelope"></i> Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-info-circle"></i> Acerca de Nosotros</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="bi bi-headset"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">123-456-7890</span>
+                    </div>
+                </div>
+                <div class="container-logo">
+                    <i class="bi bi-sun"></i>
+                    <h1 class="logo"><a href="/">Bella Vista</a></h1>
+                </div>
+                <div class="container-user">
+                    <i class="bi bi-person"></i>
+                    <i class="bi bi-basket"></i>
+                    <div class="content-shopping-cart">
+                        <span class="text">Carrito</span>
+                        <span class="number">(0)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <!-- Contenido del primer slide -->
+                  <img src="Imagenes/flores raras.jpeg" class="d-block w-100" alt="...">
+                  <div class="content-banner">
+                      <h2>100% Natural <br><flores></h2>
+                      <p>Disfruta la frescura de la naturaleza en cada ramo</p>
+                     <button>Ordenar ahora</button>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <!-- Contenido del segundo slide -->
+                  <img src="Imagenes/flores de colores.jpeg" class="d-block w-100" alt="...">
+                  <div class="content-banner">
+                      <h2>Otro título <br><flores></h2>
+                      <p>Otro texto para el segundo slide</p>
+                      <a href="#">Ordenar ahora</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+</header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Features -->
+      <section class="container top-categories">
+          <h1 class="heading-1">Características principales</h1>
+          <div class="row">
+              <div class="col-md-6 col-lg-3">
+                  <div class="card-feature">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-airplane-fill" viewBox="0 0 16 16">
+                          <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849"/>
+                      </svg>
+                      <div class="feature-content">
+                          <span>Envío gratuito a nivel mundial</span>
+                          <p>En pedidos superiores a $150</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="card-feature">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
+                          <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"/>
+                      </svg>
+                      <div class="feature-content">
+                          <span>Contrareembolso</span>
+                          <p>100% garantía de devolución de dinero</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="card-feature">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-gift-fill" viewBox="0 0 16 16">
+                          <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9z"/>
+                      </svg>
+                      <div class="feature-content">
+                          <span>Tarjeta regalo especial</span>
+                          <p>Ofrece bonos especiales con regalo</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="card-feature">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                          <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+                      </svg>
+                      <div class="feature-content">
+                          <span>Servicio al cliente</span>
+                          <p>Llámenos al 66-23-45-67-89</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </main>
+  
+  
+
+        <!-- Top Categories -->
+        <section class="container top-categories">
+          <h1 class="heading-1">Mejores Categorías</h1>
+          <div class="container-categories">
+            <div class="card-category category-ocasiones">
+              <p>Ocasiones especiales</p>
+              <a href="ocasiones.html"> Ver mas</a>
+            </div>
+            <div class="card-category category-tipo">
+              <p>Tipos de flores</p>
+              <a href="tipo.html">Ver mas</a>
+            </div>
+            <div class="card-category category-servicio">
+              <p>Servicios adicionales</p>
+              <span>Ver más</span>
+            </div>
+          </div>
+        </section>
+      
+
+       
+          </section>
+        </section>
+
+        <!-- Top Products -->
+        <section class="container top-products">
+          <h1 class="heading-1">Mejores Productos</h1>
+
+          <div class="container-options">
+            <span class="active">Destacados</span>
+            <span>Más recientes</span>
+            <span>Mejores Vendidos</span>
+          </div>
+  
+          <div class="container-products">
+          
+            <div class="card-product">
+              <div class="container-img">
+                <img src="Imagenes/Ramo el conjunto.jpg" alt="" />
+                <span class="discount">-13%</span>
+                <div class="button-group">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="content-card-product">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Ramo el conjunto</h3>
+                <span class="add-cart">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="price">$460.60 <span>$500.30</span></p>
+              </div>
+            </div>
+          
+            <div class="card-product">
+              <div class="container-img">
+                <img src="Imagenes/Maceta con flores.jpg"alt="">
+                  
+                
+                  
+                <span class="discount">-22%</span>
+                <div class="button-group">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="content-card-product">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Maceta con flores de colores </h3>
+                <span class="add-cart">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="price">$700.70 <span>$790.00</span></p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="card-product">
+              <div class="container-img">
+                <img src="Imagenes/ramo azulitos de mi corazon.jpg"alt="">
+                  
+                  
+                
+                <div class="button-group">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="content-card-product">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h3>Flores azules para quinceañera</h3>
+                <span class="add-cart">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="price">$660.00</p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="card-product">
+              <div class="container-img">
+                <img src="Imagenes/girasol.jpg" alt="" />
+                <div class="button-group">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="content-card-product">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Ramo de girasol</h3>
+                <span class="add-cart">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="price">$700.00</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        </section>
+
+        <!-- Gallery -->
+        <section class="gallery">
+          <img src="Imagenes/girasoles.jpg"alt=""/>
+					
+					<img src="Imagenes/margaritas.jpg"alt=""/>
+					
+					
+					
+				<img src="Imagenes/florerocon flores.jpg"alt=""/>
+					
+				<img src="Imagenes/girasolesitos.jpg"alt=""/>
+					
+				<img src="Imagenes/2c2f0ffed9f915661ab07afb7775a69c.jpg" alt=""/>
+
+				<img src="Imagenes/rosAS MORADAS.jpg" alt=""> 
+					
+					
+        </section>
+
+        <!-- Specials -->
+        <section class="container specials">
+          <h1 class="heading-1">Especiales</h1>
+
+          <div class="container-products">
+            <!-- Producto 1 -->
+            <div class="card-product">
+              <div class="container-img">
+                <img src="Imagenes/Ramo reputation.jpg" alt="" />
+                <span class="discount">-13%</span>
+                <div class="button-group">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="content-card-product">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Ramo personalizado (Taylor Swift) </h3>
+                <span class="add-cart">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="price">$1100.00 <span>$1200.00</span></p>
+              </div>
+            </div>
+            <!-- Producto 2 -->
+            <div class="card-product">
+              <div class="container-img">
+                <img src="Imagenes/condolencia.jpg"alt=""/>
+                <span class="discount">-22%</span>
+                <div class="button-group">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="content-card-product">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Arreglo Floral de condolencias</h3>
+                <span class="add-cart">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="price">$1200.00 <span>$1500.00</span></p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="card-product">
+              <div class="container-img">
+                <img src="Imagenes/Ramo de novia.jpg" alt="" />
+                <span class="discount">-30%</span>
+                <div class="button-group">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="content-card-product">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h3>Ramo especial para novia</h3>
+                <span class="add-cart">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="price">$3000.00 <span>$5500.00</span></p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="card-product">
+              <div class="container-img">
+                <img src="Imagenes/ramo buchon.jpg" alt="" />
+                <div class="button-group">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="content-card-product">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Ramo de 100 rosas rojas</h3>
+                <span class="add-cart">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="price">$10,000.00</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        </section>
+
+        <!-- Blogs -->
+        <section class="container blogs">
+          <section class="container blogs">
+            <h1 class="heading-1">Últimos Blogs</h1>
+    
+            <div class="container-blogs">
+              <div class="card-blog">
+                <div class="container-img">
+                  <img src="Imagenes/La inspiracion de las flores.jpg" alt="" />
+                  <div class="button-group-blog">
+                    <span>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                    <span>
+                      <i class="fa-solid fa-link"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="content-blog-1" id="blog-content-1" style="display: none;">
+                  <h3>Los secretos de un ramo perfecto</h3>
+                  <span>23 de marzo 2024</span>
+                  <p>
+                    El arte de la florería, cada ramo cuenta con una historia
+                    única desde la elección de las flores hasta las disposición creativa, hay un mundo
+                    de detalles que hacen que un ramo destaque entre los demas.
+    
+                  </p>
+                </div>							
+                <div class="btn-read-more"id="btn-read-more-1">Leer más</div>
+    
+              </div>
+              <div class="card-blog">
+                <div class="container-img">
+                  <img src="Imagenes/floreshogar.jpeg" alt="" />
+                  <div class="button-group-blog">
+                    <span>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                    <span>
+                      <i class="fa-solid fa-link"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="content-blog-2" id="blog-content-2" style="display: none;">
+                  <h3>Las flores que iluminan tu hogar</h3>
+                  <span>23 marzo 2024</span>
+                  <p>
+                    Las flores no solo son elementos decorativos, si no que tambien
+                    tienen el poder de iluminar y dar a cualquier espacio. Descubre como
+                    elegir las flores adecuadas para cada rincón de tu hogar y transforma
+                    tu ambiente en oasis de belleza y frescura.
+                  </p>
+                </div>						
+                <div class="btn-read-more"id="btn-read-more-2">Leer más</div>
+    
+    
+              </div>
+              <div class="card-blog">
+                <div class="container-img">
+                  <img src="Imagenes/floreees quieres ser minovia.jpg" alt="" />
+                  <div class="button-group-blog">
+                    <span>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                    <span>
+                      <i class="fa-solid fa-link"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="content-blog-3" id="blog-content-3" style="display: none;">
+                  <h3>El lenguaje de las flores: Más allá de las palabras</h3>
+                  <span>23 marzo 2024</span>
+                  <p>
+                    Las flores han sido utilizadas a lo largo de la historia como
+                    símbolos de amor,amistad y emociones profundas. En nuestra florería,
+                    no solo creamos arreglos hermosos, si no que también sentimientos a traves del
+                    lenguaje secreto de las flores. Descubre como elegir las flores para cada ocasión
+                    y deja que hablen por tí.
+                  </p>
+                  
+                </div>
+                <div class="btn-read-more"id="btn-read-more-3">Leer más</div>
+        </main>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <h5>Información de Contacto</h5>
+                        <ul>
+                            <li>Dirección: Av.Buenrostro entre Garmendia y San Carlos Colonia: La Bella Vista.</li>
+                            <li>Teléfono: 66-23-45-67-89</li>
+                            <li>Email: BellaVista@gmail.com</li>
+                        </ul>
+                        <div class="social-icons">
+                            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
+                            <a href="#" class="pinterest"><i class="bi bi-pinterest"></i></a>
+                            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="container">
+                <p>Bella Vista &copy; 2024</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+
+
+</html>
+
